@@ -1,0 +1,441 @@
+database revision=2013-01-03
+
+board type=1A0N revision=01,02,10,20,30
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=rom address=40-7f,c0-ff:0000-7fff mask=0x8000
+
+board type=2A0N revision=01,10,11,20
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=rom address=40-7f,c0-ff:0000-7fff mask=0x8000
+
+board type=BA0N revision=01,10
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=rom address=40-7f,c0-ff:0000-7fff mask=0x8000
+
+board type=YA0N revision=01
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=rom address=40-7f,c0-ff:0000-7fff mask=0x8000
+
+board type=1A1B revision=04,05,06
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-1f,80-9f:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-ffff
+
+board type=1A3B revision=11,12,13
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-1f,80-9f:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-ffff
+
+board type=1A3B revision=20
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=2A3B revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=1A5B revision=02,04
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-1f,80-9f:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-ffff
+
+board type=1A1M revision=01,11,20
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=2A1M revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=BA1M revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=1A3M revision=10,20,21,30
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=2A3M revision=01,11,20
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=BA3M revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=1A5M revision=01,11,20
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=2A5M revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=2A3M revision=01 mapper=MAD-R
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+
+board type=1B0N revision=02,03
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-1f,80-9f:8000-ffff mask=0x8000
+  necdsp model=uPD7725 frequency=8000000
+    rom id=program name={rom[1].name} size={rom[1].size}
+    rom id=data name={rom[2].name} size={rom[2].size}
+    ram id=data size={ram[0].size}
+    map id=io address=30-3f,b0-bf:8000-ffff select=0x4000
+
+board type=2B3B revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-7fff
+  necdsp model=uPD7725 frequency=8000000
+    rom id=program name={rom[1].name} size={rom[1].size}
+    rom id=data name={rom[2].name} size={rom[2].size}
+    ram id=data size={ram[1].size}
+    map id=io address=60-6f,e0-ef:0000-7fff select=0x4000
+
+board type=1B5B revision=02
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-1f,80-9f:8000-ffff mask=0x8000
+  map id=ram address=70-7f,f0-ff:0000-ffff
+  necdsp model=uPD7725 frequency=8000000
+    rom id=program name={rom[1].name} size={rom[1].size}
+    rom id=data name={rom[2].name} size={rom[2].size}
+    ram id=data size={ram[1].size}
+    map id=io address=20-3f,a0-bf:8000-ffff select=0x4000
+
+board type=1C0N5S revision=01
+  superfx revision={superfx.revision}
+    rom name={rom.name} size={rom.size}
+    ram name={ram.name} size={ram.size}
+    map id=io address=00-3f,80-bf:3000-34ff
+    map id=rom address=00-1f,80-9f:8000-ffff mask=0x8000
+    map id=ram address=60-7f,e0-ff:0000-ffff
+
+board type=1CA0N5S revision=01
+  superfx revision={superfx.revision}
+    rom name={rom.name} size={rom.size}
+    ram name={ram.name} size={ram.size}
+    map id=io address=00-3f,80-bf:3000-34ff
+    map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+    map id=rom address=40-5f,c0-df:0000-ffff
+    map id=ram address=00-3f,80-bf:6000-7fff size=0x2000
+    map id=ram address=70-71,f0-f1:0000-ffff
+
+board type=1CA0N6S revision=01
+  superfx revision={superfx.revision}
+    rom name={rom.name} size={rom.size}
+    ram name={ram.name} size={ram.size}
+    map id=io address=00-3f,80-bf:3000-34ff
+    map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+    map id=rom address=40-5f,c0-df:0000-ffff
+    map id=ram address=00-3f,80-bf:6000-7fff size=0x2000
+    map id=ram address=70-71,f0-f1:0000-ffff
+
+board type=1CA6B revision=01
+  superfx revision={superfx.revision}
+    rom name={rom.name} size={rom.size}
+    ram name={ram.name} size={ram.size}
+    map id=io address=00-3f,80-bf:3000-34ff
+    map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+    map id=rom address=40-5f,c0-df:0000-ffff
+    map id=ram address=00-3f,80-bf:6000-7fff size=0x2000
+    map id=ram address=70-71,f0-f1:0000-ffff
+
+board type=1CB0N7S revision=01
+  superfx revision={superfx.revision}
+    rom name={rom.name} size={rom.size}
+    ram name={ram.name} size={ram.size}
+    map id=io address=00-3f,80-bf:3000-34ff
+    map id=rom address=00-3f:8000-ffff mask=0x8000
+    map id=rom address=40-5f:0000-ffff
+    map id=ram address=00-3f,80-bf:6000-7fff size=0x2000
+    map id=ram address=70-71:0000-ffff
+
+board type=1CB5B revision=20
+  superfx revision={superfx.revision}
+    rom name={rom.name} size={rom.size}
+    ram name={ram.name} size={ram.size}
+    map id=io address=00-3f,80-bf:3000-34ff
+    map id=rom address=00-3f:8000-ffff mask=0x8000
+    map id=rom address=40-5f:0000-ffff
+    map id=ram address=00-3f,80-bf:6000-7fff size=0x2000
+    map id=ram address=70-71:0000-ffff
+
+board type=1DC0N revision=01
+  hitachidsp model=HG51B169 frequency=20000000
+    rom id=program name={rom.name} size={rom.size}
+    rom id=data name={rom[1].name} size={rom[1].size}
+    ram id=data size={ram[0].size}
+    map id=io address=00-3f,80-bf:6000-7fff
+    map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+    map id=ram address=70-77:0000-7fff
+
+board type=2DC0N revision=01
+  hitachidsp model=HG51B169 frequency=20000000
+    rom id=program name={rom.name} size={rom.size}
+    rom id=data name={rom[1].name} size={rom[1].size}
+    ram id=data size={ram[0].size}
+    map id=io address=00-3f,80-bf:6000-7fff
+    map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+    map id=ram address=70-77:0000-7fff
+
+board type=1DE3B revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-1f,80-9f:8000-ffff mask=0x8000
+  map id=rom address=40-5f,c0-df:0000-ffff mask=0x8000
+  map id=ram address=60-7f,e0-ff:0000-ffff
+  armdsp frequency=21477272
+    rom id=program name={rom[1].name} size={rom[1].size}
+    rom id=data name={rom[2].name} size={rom[2].size}
+    ram size={ram[1].size}
+
+board type=LDH3C revision=01
+  spc7110
+    rom id=program name={rom[0].name} size={rom[0].size}
+    rom id=data name={rom[1].name} size={rom[1].size}
+    ram name={ram[0].name} size={ram[0].size}
+    map id=io address=00-3f,80-bf:4800-483f
+    map id=io address=50,58:0000-ffff
+    map id=rom address=00-3f,80-bf:8000-ffff
+    map id=rom address=c0-ff:0000-ffff
+    map id=ram address=00-3f,80-bf:6000-7fff mask=0xe000
+  epsonrtc
+    ram name={ram[1].name} size={ram[1].size}
+    map id=io address=00-3f,80-bf:4840-4842
+
+board type=1DS0B revision=10,20
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  necdsp model=uPD96050 frequency=11000000
+    rom id=program name={rom[1].name} size={rom[1].size}
+    rom id=data name={rom[2].name} size={rom[2].size}
+    ram id=data name={ram[0].name} size={ram[0].size}
+    map id=io address=60-67,e0-e7:0000-3fff select=0x0001
+    map id=ram address=68-6f,e8-ef:0000-7fff
+
+board type=2E3M revision=01
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+  obc1
+    ram name=save.ram size=0x2000
+    map id=io address=00-3f,80-bf:6000-7fff
+    map id=io address=70-71,f0-f1:6000-7fff,e000-ffff
+
+board type=1J0N revision=01,10,20
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+
+board type=2J0N revision=01,10,11
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+
+board type=3J0N revision=01
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-2f,80-af:8000-ffff
+  map id=rom address=40-6f,c0-ef:0000-ffff
+
+board type=BJ0N revision=01,20
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+
+board type=YJ0N revision=01
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+
+board type=1J3B revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  map id=ram address=20-3f,a0-bf:6000-7fff mask=0xe000
+
+board type=1J1M revision=11,20
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  map id=ram address=20-3f,a0-bf:6000-7fff mask=0xe000
+
+board type=1J3M revision=01,11,20
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  map id=ram address=20-3f,a0-bf:6000-7fff mask=0xe000
+
+board type=2J3M revision=01,11,20
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  map id=ram address=10-1f,30-3f:6000-7fff mask=0xe000
+  map id=ram address=90-9f,b0-bf:6000-7fff mask=0xe000
+
+board type=BJ3M revision=10
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  map id=ram address=20-3f,a0-bf:6000-7fff mask=0xe000
+
+board type=LJ3M revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f:8000-ffff offset=0x400000
+  map id=rom address=40-7f:0000-ffff offset=0x400000
+  map id=rom address=80-bf:8000-ffff offset=0x000000
+  map id=rom address=c0-ff:0000-ffff offset=0x000000
+  map id=ram address=80-bf:6000-7fff mask=0xe000
+
+board type=1J5M revision=11,20
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  map id=ram address=20-3f,a0-bf:6000-7fff mask=0xe000
+
+board type=2J5M revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  map id=ram address=10-1f,90-9f:6000-7fff mask=0xe000
+  map id=ram address=30-3f,b0-bf:6000-7fff mask=0xe000
+
+board type=1K0N revision=01
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  necdsp model=uPD7725 frequency=8000000
+    rom id=program name={rom[1].name} size={rom[1].size}
+    rom id=data name={rom[2].name} size={rom[2].size}
+    ram id=data size={ram[0].size}
+    map id=io address=00-1f,80-9f:6000-7fff select=0x1000
+
+board type=1K1B revision=01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-3f,80-bf:8000-ffff
+  map id=rom address=40-7f,c0-ff:0000-ffff
+  map id=ram address=20-3f,a0-bf:6000-7fff mask=0xe000
+  necdsp model=uPD7725 frequency=8000000
+    rom id=program name={rom[1].name} size={rom[1].size}
+    rom id=data name={rom[2].name} size={rom[2].size}
+    ram id=data size={ram[1].size}
+    map id=io address=00-1f,80-9f:6000-7fff select=0x1000
+
+board type=1L3B revision=02,11
+  sa1
+    rom name={rom.name} size={rom.size}
+    ram id=bitmap name={ram.name} size={ram.size}
+    ram id=internal size={ram[1].size}
+    map id=io address=00-3f,80-bf:2200-23ff
+    map id=rom address=00-3f,80-bf:8000-ffff
+    map id=rom address=c0-ff:0000-ffff
+    map id=bwram address=00-3f,80-bf:6000-7fff
+    map id=bwram address=40-4f:0000-ffff
+    map id=iram address=00-3f,80-bf:3000-37ff
+
+board type=1L5B revision=11,20
+  sa1
+    rom name={rom.name} size={rom.size}
+    ram id=bitmap name={ram.name} size={ram.size}
+    ram id=internal size={ram[1].size}
+    map id=io address=00-3f,80-bf:2200-23ff
+    map id=rom address=00-3f,80-bf:8000-ffff
+    map id=rom address=c0-ff:0000-ffff
+    map id=bwram address=00-3f,80-bf:6000-7fff
+    map id=bwram address=40-4f:0000-ffff
+    map id=iram address=00-3f,80-bf:3000-37ff
+
+board type=1N0N revision=01
+  sdd1
+    rom name={rom.name} size={rom.size}
+    map id=io address=00-3f,80-bf:4800-4807
+    map id=rom address=00-3f,80-bf:8000-ffff mask=0x8000
+    map id=rom address=c0-ff:0000-ffff
+
+board type=2P3B revision=01
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-0f,80-8f:8000-ffff
+  map id=rom address=40-4f,c0-cf:0000-ffff
+
+board id:BSC-1A5B9P-01
+  bsx
+    rom name={rom.name} size={rom.size}
+    ram id=save name={ram[0].name} size={ram[0].size}
+    ram id=download name={ram[1].name} size={ram[1].size}
+    map id=io address=00-3f,80-bf:5000-5fff
+    map id=rom address=00-3f,80-bf:8000-ffff
+    map id=rom address=40-5f,c0-ff:0000-ffff
+    map id=rom address=78-7f:0000-ffff
+    map id=ram address=20-3f:6000-7fff mask=0xe000
+    map id=ram address=70-77:0000-ffff
+
+board id:BSC-1J3M-01
+  rom name={rom.name} size={rom.size}
+  ram name={ram.name} size={ram.size}
+  map id=rom address=00-1f,80-9f:8000-ffff
+  map id=rom address=40-5f,c0-df:0000-ffff
+  map id=ram address=20-3f,a0-bf:6000-7fff mask=0xe000
+  bsxslot
+    map id=rom address=20-3f,a0-bf:8000-ffff
+    map id=rom address=60-7f,e0-ff:0000-ffff
+
+board id:Sufami Turbo
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-1f,80-9f:8000-ffff mask=0x8000
+  sufamiturbo
+    slot id=A
+      map id=rom address=20-3f,a0-bf:8000-ffff mask=0x8000
+      map id=ram address=60-6f,e0-ef:0000-ffff
+    slot id=B
+      map id=rom address=40-5f,c0-df:0000-7fff mask=0x8000
+      map id=rom address=40-5f,c0-df:8000-ffff mask=0x8000
+      map id=ram address=70-7f,f0-ff:0000-ffff
+
+board id:Super Game Boy
+  rom name={rom.name} size={rom.size}
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  map id=rom address=40-7f,c0-ff:0000-7fff mask=0x8000
+  icd2 revision=1
+    rom name={rom[1].name} size={rom[1].size}
+    map id=io address=00-3f,80-bf:6000-67ff
+    map id=io address=00-3f,80-bf:7000-7fff

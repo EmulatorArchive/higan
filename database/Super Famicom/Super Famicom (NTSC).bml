@@ -1,0 +1,128 @@
+database revision=2012-12-26
+
+information
+  title:    BS-X それは名前を盗まれた待の物語
+  name:     BS-X - Sore wa Namae o Nusumareta Machi no Monogatari
+  region:   JP
+  revision: 1.1
+  board:    BSC-1A5B9P-01
+  serial:   SHVC-ZBSJ-JPN
+  sha256:   3ce321496edc5d77038de2034eb3fb354d7724afd0bc7fd0319f3eb5d57b984d
+  configuration
+    rom name=program.rom size=0x100000
+    ram name=save.ram size=0x8000
+    ram name=download.ram size=0x40000
+
+information
+  title:    Far East of Eden 天外魔境 Zero
+  name:     Far East of Eden - Tengai Makyou Zero
+  region:   JP
+  revision: 1.0
+  board:    SHVC-LDH3C-01
+  serial:   SHVC-AZRJ-JPN
+  sha256:   8620203da71d32d017bb21f542864c1d90705b87eb67815d06b43f09120318aa
+  configuration
+    rom name=program.rom size=0x100000
+    rom name=data.rom size=0x400000
+    ram name=save.ram size=0x2000
+    ram name=rtc.ram size=0x10
+
+information
+  title:    Far East of Eden 天外魔境 Zero 少年ジャンプの章
+  name:     Far East of Eden - Tengai Makyou Zero - Shounen Jump no Shou
+  region:   JP
+  revision: 1.0
+  board:    SHVC-LDH3C-01
+  serial:   SHVC-AZQJ-JPN
+  sha256:   69d06a3f3a4f3ba769541fe94e92b42142e423e9f0924eab97865b2d826ec82d
+  configuration
+    rom name=program.rom size=0x100000
+    rom name=data.rom size=0x400000
+    ram name=save.ram size=0x2000
+    ram name=rtc.ram size=0x10
+
+information
+  title:    早指し二段森田将棋
+  name:     Hayazashi Nidan Morita Shougi
+  region:   JP
+  revision: 1.0
+  board:    SHVC-1DS0B-10
+  serial:   SHVC-2M
+  sha256:   5b1a90c70df7537743900ad159e92ba3f72e4560934a64a46d62faba2ca83a70
+  configuration
+    rom name=program.rom size=0x80000
+    rom name=st011.program.rom size=0xc000
+    rom name=st011.data.rom size=0x1000
+    ram name=save.ram size=0x1000
+
+information
+  title:    早指し二段森田将棋2
+  name:     Hayazashi Nidan Morita Shougi 2
+  region:   JP
+  revision: 1.0
+  board:    SHVC-1DE3B-01
+  serial:   SHVC-A2MJ-JPN
+  sha256:   3dd659d048aba8fc7d07b6ab726c9f711c948141e99e393685ae6cc311a83dc5
+  configuration
+    rom name=program.rom size=0x80000
+    ram name=save.ram size=0x2000
+    rom name=st018.program.rom size=0x20000
+    rom name=st018.data.rom size=0x8000
+    ram name=st018.program.ram size=0x4000
+
+information
+  title:    くにおくんのドッジボールだよ 全員集合! トーナメント スペシャル
+  name:     Kunio-kun no Dodge Ball da yo - Zen'in Shuugou! Tournament Special
+  region:   JP
+  revision: 1.0
+  board:    SHVC-2P3B-01
+  serial:   N/A
+  sha256:   bcba4ca39f0279f7a52657bccbffa84564eaea455e2565597b93942ec245fdb1
+  configuration
+    rom name=program.rom size=0x80000
+
+information
+  title:    鮫亀
+  name:     Same Game
+  region:   JP
+  revision: 1.0
+  board:    BSC-1J3M-01
+  serial:   SHVC-ZS5J-JPN
+  sha256:   3a709383208d8258dceb20a5e566903326515ba42931bf97fd389a415a13a72d
+  configuration
+    rom name=program.rom size=0x100000
+    ram name=save.ram size=0x2000
+
+information
+  title:    スーファミターボ
+  name:     Sufami Turbo
+  region:   JP
+  revision: 1.0
+  board:    Sufami Turbo
+  serial:   SFT-0100-JPN
+  sha256:   edacb453da14f825f05d1134d6035f4bf034e55f7cfb97c70c4ee107eabc7342
+  configuration
+    rom name=program.rom size=0x40000
+
+information
+  title:    テイルズ オブ ファンタジア
+  name:     Tales of Phantasia
+  region:   JP
+  revision: 1.0
+  board:    SHVC-LJ3M-01
+  serial:   SHVC-ATVJ-JPN
+  sha256:   77b2d5450ce3c87185f913c2584673530c13dfbe8cc433b1e9fe5e9a653bf7d5
+  configuration
+    rom name=program.rom size=0x600000
+    ram name=save.ram size=0x2000
+
+information
+  title:    ヨッシーのクッキー クルッポンオーブンでクッキー
+  name:     Yoshi no Cookie - Kuruppon Oven de Cookie
+  region:   JP
+  revision: 1.0
+  board:    SHVC-1A0N-10
+  serial:   SHVC-YO
+  sha256:   2b2fe61ac7a79c3cfaa0bc16f1b1f4da544fcc37cfdf3c18879d31b8b9f87941
+  configuration
+    rom name=program.rom size=0x100000
