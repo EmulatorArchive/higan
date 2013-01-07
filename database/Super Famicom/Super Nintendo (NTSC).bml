@@ -1,4 +1,4 @@
-database revision=2013-01-03
+database revision=2013-01-07
 
 information
   title:    3 Ninjas Kick Back
@@ -675,8 +675,8 @@ information
     ram name=save.ram size=0x2000
 
 information
-  title:    Bill Walsh: College Football
-  name:     Bill Walsh - College Football
+  title:    Bill Walsh College Football
+  name:     Bill Walsh College Football
   region:   NA
   revision: 1.0
   board:    SHVC-1J0N-10
@@ -1961,8 +1961,8 @@ information
     ram name=save.ram size=0x1000
 
 information
-  title:    FaceBall 2000
-  name:     FaceBall 2000
+  title:    Faceball 2000
+  name:     Faceball 2000
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-02
@@ -2241,8 +2241,8 @@ information
     rom name=program.rom size=0x100000
 
 information
-  title:    Foreman for Real
-  name:     Foreman for Real
+  title:    Foreman For Real
+  name:     Foreman For Real
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-30
@@ -2521,24 +2521,13 @@ information
     ram name=save.ram size=0x2000
 
 information
-  title:    Head-on Soccer
-  name:     Head-on Soccer
+  title:    Head-On Soccer
+  name:     Head-On Soccer
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-30
   serial:   M/SNS-AVSE-USA
   sha256:   9ff6bbcce7dc1f3bded96860a86698cab161d13ee167c57b5b114ac646eea0ea
-  configuration
-    rom name=program.rom size=0x200000
-
-information
-  title:    Hey Punk! Are You Tuff E Nuff?
-  name:     Hey Punk! Are You Tuff E Nuff
-  region:   NA
-  revision: 1.0
-  board:    SHVC-2A0N-10
-  serial:   SNS-TE-USA
-  sha256:   8f62d014f513a7dcbca5aa76cbe476c3e4526100f34913af831bc05dab029bd1
   configuration
     rom name=program.rom size=0x200000
 
@@ -2908,8 +2897,8 @@ information
     rom name=program.rom size=0x100000
 
 information
-  title:    Jimmy Connors: Pro Tennis Tour
-  name:     Jimmy Connors - Pro Tennis Tour
+  title:    Jimmy Connors' Pro Tennis Tour
+  name:     Jimmy Connors' Pro Tennis Tour
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-20
@@ -2931,8 +2920,8 @@ information
     ram name=save.ram size=0x2000
 
 information
-  title:    Joe & Mac: Caveman Ninjas
-  name:     Joe & Mac - Caveman Ninjas
+  title:    Joe & Mac
+  name:     Joe & Mac
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-01
@@ -3063,8 +3052,8 @@ information
     rom name=program.rom size=0x100000
 
 information
-  title:    Ken Griffey Jr. Presents: Major League Baseball
-  name:     Ken Griffey Jr. Presents - Major League Baseball
+  title:    Ken Griffey Jr. Presents Major League Baseball
+  name:     Ken Griffey Jr. Presents Major League Baseball
   region:   NA
   revision: 1.0
   board:    SHVC-1A3B-20
@@ -3075,8 +3064,8 @@ information
     ram name=save.ram size=0x2000
 
 information
-  title:    Ken Griffey Jr. Presents: Major League Baseball
-  name:     Ken Griffey Jr. Presents - Major League Baseball
+  title:    Ken Griffey Jr. Presents Major League Baseball
+  name:     Ken Griffey Jr. Presents Major League Baseball
   region:   NA
   revision: 1.1
   board:    SHVC-1A3M-21
@@ -4362,8 +4351,8 @@ information
     ram name=save.ram size=0x800
 
 information
-  title:    Newman Haas Indycar Featuring Nigel Mansell
-  name:     Newman Haas Indycar Featuring Nigel Mansell
+  title:    Newman-Haas IndyCar featuring Nigel Mansell
+  name:     Newman-Haas IndyCar featuring Nigel Mansell
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-20
@@ -5159,8 +5148,8 @@ information
     ram name=save.ram size=0x2000
 
 information
-  title:    Push-over
-  name:     Push-over
+  title:    Push-Over
+  name:     Push-Over
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-10
@@ -5823,8 +5812,8 @@ information
     rom name=program.rom size=0x100000
 
 information
-  title:    SmartBall
-  name:     SmartBall
+  title:    Smart Ball
+  name:     Smart Ball
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-01
@@ -6256,8 +6245,8 @@ information
     rom name=program.rom size=0x100000
 
 information
-  title:    Strike Gunner: STG
-  name:     Strike Gunner - STG
+  title:    Strike Gunner S.T.G.
+  name:     Strike Gunner STG
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-02
@@ -6325,8 +6314,8 @@ information
     rom name=program.rom size=0x100000
 
 information
-  title:    The Super Aquatic Games Starring The Aquabats
-  name:     Super Aquatic Games Starring The Aquabats, The
+  title:    The Super Aquatic Games starring the Aquabats
+  name:     Super Aquatic Games starring the Aquabats, The
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-10
@@ -6808,8 +6797,8 @@ information
     ram name=save.ram size=0x2000
 
 information
-  title:    Super Punch-out!!
-  name:     Super Punch-out!!
+  title:    Super Punch-Out!!
+  name:     Super Punch-Out!!
   region:   NA
   revision: 1.0
   board:    SHVC-1A3M-21
@@ -7608,6 +7597,17 @@ information
     rom name=program.rom size=0x200000
 
 information
+  title:    Tuff E Nuff
+  name:     Tuff E Nuff
+  region:   NA
+  revision: 1.0
+  board:    SHVC-2A0N-10
+  serial:   SNS-TE-USA
+  sha256:   8f62d014f513a7dcbca5aa76cbe476c3e4526100f34913af831bc05dab029bd1
+  configuration
+    rom name=program.rom size=0x200000
+
+information
   title:    Turn and Burn: No-Fly Zone
   name:     Turn and Burn - No-Fly Zone
   region:   NA
@@ -7643,25 +7643,25 @@ information
     ram name=save.ram size=0x800
 
 information
-  title:    Ultima: The Black Gate
-  name:     Ultima - The Black Gate
-  region:   NA
-  revision: 1.0
-  board:    SHVC-1A3M-21
-  serial:   SNS-7I-USA
-  sha256:   a31af0e39afb55bbc92a5543b504327fbe7e8cd0a5e08626976bed7b65376737
-  configuration
-    rom name=program.rom size=0x100000
-    ram name=save.ram size=0x2000
-
-information
-  title:    Ultima: The False Prophet
-  name:     Ultima - The False Prophet
+  title:    Ultima VI: The False Prophet
+  name:     Ultima VI - The False Prophet
   region:   NA
   revision: 1.0
   board:    SHVC-1A3M-20
   serial:   SNS-U6-USA
   sha256:   11659bd8dd620d50400d16042aeb2d0ddb00c7183fc1ecb95b1a34f07db0431b
+  configuration
+    rom name=program.rom size=0x100000
+    ram name=save.ram size=0x2000
+
+information
+  title:    Ultima VII: The Black Gate
+  name:     Ultima VII - The Black Gate
+  region:   NA
+  revision: 1.0
+  board:    SHVC-1A3M-21
+  serial:   SNS-7I-USA
+  sha256:   a31af0e39afb55bbc92a5543b504327fbe7e8cd0a5e08626976bed7b65376737
   configuration
     rom name=program.rom size=0x100000
     ram name=save.ram size=0x2000
@@ -8308,8 +8308,8 @@ information
     rom name=program.rom size=0x200000
 
 information
-  title:    Zero: The Kamikaze Squirrel
-  name:     Zero - The Kamikaze Squirrel
+  title:    Zero the Kamikaze Squirrel
+  name:     Zero the Kamikaze Squirrel
   region:   NA
   revision: 1.0
   board:    SHVC-1A0N-20
