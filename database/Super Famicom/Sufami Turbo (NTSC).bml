@@ -1,4 +1,4 @@
-database revision=2012-12-26
+database revision=2013-01-12
 
 information
   title:    SDウルトラバトル ウルトラマン伝説
@@ -61,8 +61,8 @@ information
     linkable
 
 information
-  title:    ゲゲゲの鬼太郎 妖怪ドンジャン
-  name:     Gegege no Kitarou - Youkai Dungeon
+  title:    ゲゲゲの鬼太郎 妖怪ドンジャラ
+  name:     Gegege no Kitarou - Youkai Donjara
   region:   JP
   revision: 1.0
   serial:   SFT-0106-JPN
