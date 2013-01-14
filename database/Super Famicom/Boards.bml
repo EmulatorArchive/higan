@@ -1,4 +1,4 @@
-database revision=2013-01-11
+database revision=2013-01-14
 
 board type=1A0N revision=01,02,10,20,30
   rom name={rom.name} size={rom.size}
@@ -323,8 +323,8 @@ board type=LJ3M revision=01
   ram name={ram.name} size={ram.size}
   map id=rom address=00-3f:8000-ffff offset=0x400000
   map id=rom address=40-7d:0000-ffff offset=0x400000
-  map id=rom address=80-bf:8000-ffff offset=0x000000
-  map id=rom address=c0-ff:0000-ffff offset=0x000000
+  map id=rom address=80-bf:8000-ffff offset=0x000000 mask=0xc00000
+  map id=rom address=c0-ff:0000-ffff offset=0x000000 mask=0xc00000
   map id=ram address=80-bf:6000-7fff mask=0xe000
 
 board type=1J5M revision=11,20
