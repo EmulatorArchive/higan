@@ -3294,6 +3294,7 @@ information
 information
   title:    Last Action Hero
   name:     Last Action Hero
+  region:   NA
   revision: 1.0
   board:    SHVC-1A0N-10
   serial:   SNS-L5-USA
@@ -5592,7 +5593,7 @@ information
   serial:   SNS-ZW-USA
   sha256:   34e1af0642c85148c5a3dc3c7ab4bcbda13a9fea190934b5526c555fff035651
   configuration
-    rom name=program.rom size=0x400000
+    rom name=program.rom size=0x300000
 
 information
   title:    Scooby-Doo Mystery
